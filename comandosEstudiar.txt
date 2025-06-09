@@ -1,0 +1,70 @@
+" git init:
+Inicializa un nuevo repositorio Git.
+2 " git clone <URL>:
+Clona un repositorio existente.
+3 " git add . o git add <archivo>:
+Agrega cambios al área de preparación (staging area).
+4 " git commit -m "Mensaje del commit":
+Guarda los cambios en el historial local del repositorio.
+5 " git status:
+Muestra el estado del árbol de trabajo y del área de preparación.
+6 " git diff:
+Muestra las diferencias entre el área de trabajo y el área de preparación, o entre commits.
+7 " git branch:
+Lista, crea o elimina ramas.
+8 " git checkout <rama>:
+Cambia a una rama existente.
+9 " git merge <rama>:
+Fusiona una rama en la rama actual.
+10 " git pull:
+Descarga cambios del repositorio remoto y los fusiona en el local.
+11 " git push:
+Sube los cambios locales al repositorio remoto.
+12 " git log:
+Muestra el historial de commits.
+----------------------------------------
+DockerFile
+1 Imagen Base
+FROM node:18-alpine
+2 Directorio de Trabajo
+WORKDIR /app
+3 Dependencias
+COPY package*.json ./
+RUN npm install
+4 Código de la Aplicación
+COPY . .
+5 Puerto
+EXPOSE 3000
+6 Ejecución
+CMD ["npm", "start"]
+-------------------------------------------
+Docker: Correr Imágenes y Acceder a Contenedores
+1 docker run -p 80:3000 --name mi-aplicacion-web mi-aplicacion-node:1.0
+-p 80:3000: Mapea el puerto 80 del host al puerto 3000 del contenedor (la aplicación Node.js).
+--name mi-aplicacion-web: Asigna un nombre al contenedor para facilitar su gestión.
+mi-aplicacion-node:1.0: Especifica la imagen a ejecutar.
+2 Comandos útiles para contenedores:
+docker ps: Lista los contenedores en ejecución.
+docker ps -a: Lista todos los contenedores (incluyendo los detenidos).
+docker stop <nombre_o_id_contenedor>: Detiene un contenedor.
+docker start <nombre_o_id_contenedor>: Inicia un contenedor detenido.
+docker restart <nombre_o_id_contenedor>: Reinicia un contenedor.
+docker rm <nombre_o_id_contenedor>: Elimina un contenedor.
+docker rmi <nombre_o_id_imagen>: Elimina una imagen.
+3 Cómo acceder a un Docker creado (ejecutando comandos dentro):
+docker exec -it mi-aplicacion-web sh (o bash si está disponible)
+exec: Ejecuta un comando dentro de un contenedor en ejecución.
+-it: Permite una sesión interactiva (stdin) y asigna una pseudo-TTY.
+mi-aplicacion-web: Nombre del contenedor.
+sh (o bash): El comando a ejecutar (inicia un shell dentro del contenedor).
+--------------------------------------------
+Comandos Útiles
+kubectl get pods: Lista los Pods en el Namespace actual.
+kubectl get deployments: Lista los Deployments.
+kubectl get services: Lista los Services.
+kubectl get nodes: Lista los Nodos del cluster.
+kubectl describe pod <nombre_pod>: Muestra información detallada sobre un Pod.
+kubectl logs <nombre_pod>: Muestra los logs de un Pod.
+kubectl apply -f <archivo.yaml>: Aplica una configuración definida en un archivo YAML.
+kubectl delete -f <archivo.yaml>: Elimina recursos definidos en un archivo YAML.
+kubectl scale deployment <nombre_deployment> --replicas=5: Escala un Deployment a 5 réplicas.
