@@ -1,27 +1,57 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-theme="dark"> <!-- Modo oscuro activado por defecto -->
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Acordeón de Comandos Git</title>
   <style>
+    :root {
+      --bg-color: #f4f4f4;
+      --card-bg: #fff;
+      --header-bg: #0078d7;
+      --text-color: #000;
+      --button-bg: #0078d7;
+      --button-text: white;
+    }
+
+    [data-theme="dark"] {
+      --bg-color: #121212;
+      --card-bg: #1e1e1e;
+      --header-bg: #1a73e8;
+      --text-color: #eee;
+      --button-bg: #333;
+      --button-text: white;
+    }
+
     body {
       font-family: Arial, sans-serif;
       padding: 20px;
-      background-color: #f4f4f4;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .toggle-theme {
+      background-color: var(--button-bg);
+      color: var(--button-text);
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-bottom: 20px;
     }
 
     .accordion {
-      background-color: #fff;
+      background-color: var(--card-bg);
       border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
       margin-bottom: 10px;
       overflow: hidden;
     }
 
     .accordion-header {
-      background-color: #0078d7;
-      color: white;
+      background-color: var(--header-bg);
+      color: var(--button-text);
       cursor: pointer;
       padding: 15px;
       font-size: 16px;
@@ -33,11 +63,14 @@
     .accordion-content {
       display: none;
       padding: 15px;
-      background-color: #fff;
+      background-color: var(--card-bg);
+      transition: background-color 0.3s;
     }
   </style>
 </head>
 <body>
+
+  <button class="toggle-theme" id="themeToggle">☀️ Modo Claro</button>
 
   <h2>📚 Acordeón de Comandos Básicos de Git</h2>
 
@@ -115,16 +148,35 @@
   <script>
     // Funcionalidad del acordeón
     const headers = document.querySelectorAll('.accordion-header');
-
     headers.forEach(header => {
       header.addEventListener('click', () => {
         const content = header.nextElementSibling;
-        if (content.style.display === 'block') {
-          content.style.display = 'none';
-        } else {
-          content.style.display = 'block';
-        }
+        content.style.display = content.style.display === 'block' ? 'none' : 'block';
       });
+    });
+
+    // Funcionalidad del modo oscuro
+    const toggleBtn = document.getElementById('themeToggle');
+    const htmlElement = document.documentElement;
+
+    // Cargar tema guardado
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      htmlElement.setAttribute('data-theme', savedTheme);
+      toggleBtn.textContent = savedTheme === 'dark' ? '☀️ Modo Claro' : '🌙 Modo Oscuro';
+    }
+
+    toggleBtn.addEventListener('click', () => {
+      const currentTheme = htmlElement.getAttribute('data-theme');
+      if (currentTheme === 'dark') {
+        htmlElement.setAttribute('data-theme', 'light');
+        toggleBtn.textContent = '☀️ Modo Claro';
+        localStorage.setItem('theme', 'light');
+      } else {
+        htmlElement.setAttribute('data-theme', 'dark');
+        toggleBtn.textContent = '🌙 Modo Oscuro';
+        localStorage.setItem('theme', 'dark');
+      }
     });
   </script>
 
