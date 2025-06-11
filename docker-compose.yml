@@ -1,0 +1,41 @@
+version: '3'
+services:
+  # Base de datos MariaDB
+  mariadb:
+    image: mariadb:10.6
+    container_name: wp-db
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: bd-wp
+      MYSQL_USER: julio
+      MYSQL_PASSWORD: anya28
+    networks:
+      - wp-network
+
+  # WordPress – Listo para instalar temas/plugins localmente
+  wordpress:
+    image: wordpress:latest
+    container_name: wp-app
+    depends_on:
+      - mariadb
+    ports:
+      - "8000:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_HOST: mariadb
+      WORDPRESS_DB_USER: julio
+      WORDPRESS_DB_PASSWORD: anya28
+      WORDPRESS_DB_NAME: bd-wp
+    volumes:
+      - ./wp-content:/var/www/html/wp-content
+    networks:
+      - wp-network
+
+networks:
+  wp-network:
+
+volumes:
+  db_data:
