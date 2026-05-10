@@ -1,0 +1,130 @@
+[
+  {
+    "palabras": ["hola", "hi", "buenos", "saludos", "qué tal", "ola", "holi", "buenas", "ey", "hey", "holaa", "holaaa", "holita", "holis"],
+    "respuesta": "¡Hola! 👋 Soy GamaBot. ¿Te gustaría cotizar un <b>Logo</b>, <b>Página Web</b>, <b>Fotografía</b> o <b>Ilustración</b>?<br><br> <small>¿Prefieres hablar directamente con un humano? WhatsApp: <a href='https://wa.me/525570795643' target='_blank' style='color:#00ff00;'>55 7079 5643</a></small>"
+  },
+  {
+    "palabras": ["adios", "bye", "chao", "hasta luego", "nos vemos", "gracias", "thanks", "ok", "vale", "perfecto", "genial", "grax", "thank you", "graciass", "gracias ", "adiós", "bye bye"],
+    "respuesta": "¡Con gusto! 😊 Si necesitas algo más o quieres agendar una llamada, aquí estaré. ¡Que tengas excelente día!"
+  },
+  {
+    "palabras": ["logo", "logotipo", "lobo", "log", "logos", "identidad", "marca", "branding", "isotipo", "imagotipo", "logotipos", "diseño de logo", "hacer logo", "crear logo"],
+    "respuesta": "💼 Diseño de <b>Logo profesional</b> desde $800 MXN. Incluye 3 propuestas, 2 rondas de revisión y archivos vectoriales (AI, EPS, PNG, SVG). ¿Quieres ver ejemplos?"
+  },
+  {
+    "palabras": ["web", "pagina", "sitio", "wordpress", "landing", "tienda", "ecommerce", "online", "internet", "digital", "página web", "sitio web", "pagina web", "desarrollo web"],
+    "respuesta": "💻 <b>Páginas Web</b> desde $3,500 MXN. Diseño responsive, dominio + hosting básico (1 año), formulario de contacto y SEO inicial. ¿Te interesa una cotización personalizada?"
+  },
+  {
+    "palabras": ["foto", "fotografia", "sesion", "fotos", "retratos", "producto", "corporativo", "evento", "camara", "fotógrafo", "fotografía profesional", "sesión de fotos"],
+    "respuesta": "📸 <b>Sesiones fotográficas</b> desde $600 MXN. Incluye 1 hora, 10 fotos editadas en alta resolución y entrega digital. Ideal para emprendedores y productos. ¿Quieres ver la galería?"
+  },
+  {
+    "palabras": ["ilustracion", "dibujo", "arte", "personaje", "digital", "manga", "anime", "vector", "custom", "ilustración digital", "dibujo digital", "arte digital"],
+    "respuesta": "✏️ <b>Ilustraciones digitales</b> desde $700 MXN por pieza. Retratos, personajes originales, portadas o arte para marcas. Entrega en alta resolución. ¿Te gustaría ver trabajos anteriores?"
+  },
+  {
+    "palabras": ["precio", "cuanto", "costo", "tarifa", "vale", "cotizacion", "presupuesto", "paquete", "promocion", "descuento", "oferta", "cuánto cuesta", "precio de", "costo de"],
+    "respuesta": "📊 <b>Lista de precios base:</b><br>• Logo: $800 MXN<br>• Web: $3,500 MXN<br>• Foto: $600 MXN<br>• Ilustración: $700 MXN<br>¿Sobre cuál necesitas más detalles o una cotización a medida?"
+  },
+  {
+    "palabras": ["ejemplo", "portafolio", "muestra", "trabajos", "ver", "galeria", "antes", "realizados", "clientes", "portfolio", "mis trabajos", "tus trabajos"],
+    "respuesta": " Puedes ver nuestro portafolio completo aquí: <a href='https://gammadigitalstudio.com/diseno-identidad-visual-fotografo/' target='_blank' style='color:#00ff00;'>gammadigitalstudio.com/portafolio</a>"
+  },
+  {
+    "palabras": ["robot", "humano", "ia", "inteligencia", "bot", "maquina", "persona", "real", "eres", "vivo", "consciente", "sentir", "eres humano", "eres real", "eres ia", "eres un bot"],
+    "respuesta": "Soy <b>GamaBot</b> 🤖, el asistente virtual de Gammadigital Studio. No soy humano, pero estoy programado para darte información rápida y precisa. Si prefieres hablar con una persona, escríbenos por WhatsApp."
+  },
+  {
+    "palabras": ["whatsapp", "contacto", "telefono", "llamar", "hablar", "persona", "humano", "agente", "soporte", "ayuda humana", "hablar con alguien", "atención al cliente"],
+    "respuesta": " Contáctanos directo por WhatsApp: <a href='https://wa.me/525570795643' target='_blank' style='color:#00ff00;'>Clic para chatear con Julio</a>. Estamos de Lunes a Viernes, 9:00 - 18:00."
+  },
+  {
+    "palabras": ["hablar con humano", "hablar con persona", "atención humana", "quiero persona", "hablar con alguien", "soporte humano", "hablar contigo", "hablar con julio", "asesor", "vendedor"],
+    "respuesta": "🙋 ¡Claro! Para hablar directamente con <b>Julio</b> (fundador de Gammadigital):<br><br> <a href='https://wa.me/525570795643' target='_blank' style='color:#00ff00;font-weight:bold;'>Clic aquí para WhatsApp</a><br><br>💡 O simplemente haz clic en el botón flotante de esta página para iniciar chat."
+  },
+  {
+    "palabras": ["si", "sí", "claro", "dale", "ok", "perfecto", "vamos", "adelante"],
+    "respuesta": "✅ ¡Genial! Para continuar, puedes:<br><br>1️⃣ Escribirme tu duda aquí<br>2️⃣ Hacer clic en el botón  flotante para WhatsApp<br>3️⃣ Visitar nuestro portafolio: <a href='https://gammadigitalstudio.com/diseno-identidad-visual-fotografo/' target='_blank' style='color:#00ff00;'>gammadigitalstudio.com</a><br><br>¿Qué prefieres?"
+  },
+  {
+    "palabras": ["tiempo", "plazo", "tarda", "entrega", "dias", "semana", "rapido", "urgente", "pronto", "cuando", "cuánto tiempo", "tiempo de entrega"],
+    "respuesta": "️ <b>Tiempos de entrega estimados:</b><br>• Logo: 3-5 días hábiles<br>• Web: 7-10 días hábiles<br>• Foto/Ilustración: 2-4 días hábiles<br>¿Necesitas algo con prioridad?"
+  },
+  {
+    "palabras": ["pago", "pagos", "transferencia", "tarjeta", "meses", "adelanto", "enganche", "efectivo", "paypal", "metodos", "forma de pago", "cómo pago", "pagar"],
+    "respuesta": "💳 Aceptamos transferencia bancaria, tarjeta de débito/crédito y PayPal. Se solicita 50% de adelanto para iniciar y 50% contra entrega. ¿Te gustaría agendar una llamada para definir detalles?"
+  },
+  {
+    "palabras": ["dominio", "hosting", "servidor", "correo", "email", "mantenimiento", "actualizar", "cambios", "soporte web", "renovación", "dominio web"],
+    "respuesta": "🌐 El paquete Web incluye dominio y hosting básico por 1 año. Después, la renovación tiene un costo anual aproximado de $800-$1,200 MXN. También ofrecemos mantenimiento mensual desde $500 MXN. ¿Te interesa?"
+  },
+  {
+    "palabras": ["prueba", "test", "como estas", "funciona", "servicio", "que haces", "info", "informacion", "detalles", "qué haces", "en qué ayudas"],
+    "respuesta": "✅ Estoy funcionando correctamente. Soy el asistente de Gammadigital Studio. Puedo ayudarte con precios, tiempos de entrega, portafolio o redirigirte a WhatsApp. ¿Qué necesitas hoy?"
+  },
+  {
+    "palabras": ["revision", "cambios", "modificar", "editar", "ajustes", "correcciones", "revisar", "modificaciones", "cuantas revisiones", "revisiones incluidas"],
+    "respuesta": "✏️ Todos nuestros paquetes incluyen revisiones: Logo (2 rondas), Web (3 rondas de ajustes), Foto/Ilustración (1 ronda de edición). ¿Necesitas más detalles sobre el proceso?"
+  },
+  {
+    "palabras": ["archivos", "formato", "entrega", "vector", "png", "jpg", "pdf", "ai", "eps", "svg", "en qué formato", "qué me entregan"],
+    "respuesta": "📁 Te entregamos archivos listos para usar: Logo (AI, EPS, PNG, SVG, PDF), Web (sitio publicado + archivos fuente), Foto/Ilustración (JPG/PNG en alta resolución + versión web). ¿Necesitas un formato específico?"
+  },
+  {
+    "palabras": ["derechos", "copyright", "uso", "comercial", "licencia", "propietario", "quién es dueño", "puedo usar", "uso comercial"],
+    "respuesta": "©️ Una vez pagado el proyecto completo, tú eres el propietario total de los archivos y tienes derechos de uso comercial ilimitado. Nosotros conservamos el derecho de mostrar el trabajo en nuestro portafolio (a menos que solicites confidencialidad)."
+  },
+  {
+    "palabras": ["urgente", "rapido", "express", "prioridad", "hoy", "mañana", "para ayer", "necesito ya", "entrega rápida"],
+    "respuesta": " Sí, ofrecemos servicio express con recargo del 30-50% según la urgencia. Logo en 24-48h, Web en 3-5 días. ¿Cuándo lo necesitas listo?"
+  },
+  {
+    "palabras": ["garantia", "garantía", "reembolso", "devolucion", "si no me gusta", "no estoy satisfecho", "qué pasa si"],
+    "respuesta": "🛡️ Ofrecemos garantía de satisfacción: si el resultado no cumple con lo acordado, trabajamos en ajustes adicionales sin costo. El reembolso se evalúa caso por caso antes de iniciar el proyecto."
+  },
+  {
+    "palabras": ["contratar", "empezar", "iniciar", "comenzar", "contratación", "cómo contrato", "quiero contratar", "cómo empezamos"],
+    "respuesta": "🚀 Para iniciar: 1) Definimos tu proyecto, 2) Enviamos cotización formal, 3) Recibimos 50% de adelanto, 4) ¡Comenzamos a trabajar! ¿Te gustaría que te envíe una cotización por correo?"
+  },
+  {
+    "palabras": ["referencia", "recomendacion", "opinion", "resena", "cliente", "testimonio", "quién ha trabajado", "experiencia"],
+    "respuesta": "⭐ Hemos trabajado con emprendedores, PYMES y profesionales en Ecatepec y todo México. Puedes ver testimonios y casos de éxito en nuestro portafolio. ¿Te gustaría que te comparta ejemplos similares a tu proyecto?"
+  },
+  {
+    "palabras": ["redes", "social", "instagram", "facebook", "tiktok", "contenido", "posts", "historias", "manejo de redes"],
+    "respuesta": "📱 Ofrecemos gestión de redes sociales desde $1,200 MXN/mes: creación de contenido, programación y análisis básico. ¿Te interesa un paquete combinado con diseño?"
+  },
+  {
+    "palabras": ["seo", "posicionamiento", "google", "buscador", "aparecer", "visibilidad", "trafico", "visitantes"],
+    "respuesta": "🔍 Todas nuestras páginas web incluyen SEO básico (meta etiquetas, velocidad, estructura). Para posicionamiento avanzado en Google, ofrecemos paquetes desde $800 MXN/mes. ¿Quieres más información?"
+  },
+  {
+    "palabras": ["mobile", "movil", "celular", "responsive", "adaptado", "telefono", "smartphone", "se ve en celular"],
+    "respuesta": "📱 Todos nuestros diseños web son 100% responsive: se ven perfectos en celular, tablet y desktop. ¡La experiencia de usuario es prioritaria para nosotros!"
+  },
+  {
+    "palabras": ["qr", "codigo qr", "tarjeta digital", "virtual", "presentacion", "contacto digital", "tarjeta electrónica"],
+    "respuesta": "🪪 También ofrecemos tarjetas de presentación digitales con QR desde $300 MXN. Incluye enlace personalizado, redes sociales y actualización ilimitada. ¿Te interesa para ti o tus clientes?"
+  },
+  {
+    "palabras": ["empresa", "negocio", "pyme", "emprendedor", "freelance", "profesional", "para mi negocio", "mi empresa"],
+    "respuesta": "🏢 Trabajamos con emprendedores, PYMES y profesionales independientes. Tenemos paquetes especiales para startups y negocios locales en Ecatepec. ¿Cuál es tu giro o industria?"
+  },
+  {
+    "palabras": ["duda", "pregunta", "ayuda", "no entiendo", "explicame", "más información", "quiero saber"],
+    "respuesta": "🤔 Con gusto te ayudo. Puedes preguntarme sobre precios, tiempos, procesos o cualquier detalle de nuestros servicios. ¿Qué te gustaría saber?"
+  },
+  {
+    "palabras": ["ubicacion", "direccion", "dónde estan", "oficina", "visitar", "presencial", "ecatepec", "méxico", "cdmx"],
+    "respuesta": "📍 Estamos ubicados en Ecatepec, Estado de México. Atendemos de forma remota en todo el país y presencial en zona metropolitana. ¿Prefieres una llamada o reunión virtual para comenzar?"
+  },
+  {
+    "palabras": ["idioma", "ingles", "español", "bilingue", "traduccion", "en otro idioma", "english"],
+    "respuesta": "🌎 Nuestros servicios se entregan en español. Si necesitas contenido bilingüe o traducciones, podemos coordinarlo con un costo adicional. ¿Qué idioma necesitas para tu proyecto?"
+  },
+  {
+    "palabras": ["confianza", "seguridad", "confiable", "serio", "profesional", "recomendado", "por qué elegirlos"],
+    "respuesta": "🤝 En Gammadigital Studio combinamos diseño profesional, tiempos de entrega claros y comunicación constante. Nuestros clientes regresan por la calidad y el trato cercano. ¿Te gustaría ver casos de éxito similares a tu proyecto?"
+  }
+]

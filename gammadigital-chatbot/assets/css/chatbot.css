@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+#gd-chat-container { position: fixed; bottom: 20px; right: 20px; z-index: 99999; font-family: 'Ubuntu', sans-serif; }
+#gd-chat-box { width: 340px; background: #0a0a0a; border: 2px solid #00ff00; border-radius: 8px; box-shadow: 0 0 15px rgba(0,255,0,0.15); overflow: hidden; display: none; margin-bottom: 15px; }
+#gd-chat-header { display: flex; align-items: center; padding: 15px; background: #0d0d0d; border-bottom: 2px solid #00ff00; }
+.gd-bot-avatar { width: 46px; height: 46px; border-radius: 50%; background: #000; border: 2px solid #00ff00; margin-right: 12px; object-fit: cover; }
+.gd-bot-name { color: #00ff00; font-family: 'Ubuntu', sans-serif; font-weight: 700; font-size: 20px; letter-spacing: 0.5px; }
+
+#gd-chat-msgs { padding: 20px; background: #0d0d0d; max-height: 350px; overflow-y: auto; color: #00ff00; }
+
+#gd-chat-input-area { display: flex; padding: 15px; border-top: 1px solid #00ff00; background: #0a0a0a; }
+#gd-chat-input { flex: 1; padding: 12px; background: #111; color: #00ff00; border: 1px solid #00ff00; border-radius: 6px; outline: none; font-family: 'Ubuntu', sans-serif; font-size: 16px; }
+#gd-chat-input::placeholder { color: #008000; }
+
+#gd-chat-send { margin-left: 10px; padding: 12px 18px; background: #00ff00; color: #000; border: none; border-radius: 6px; cursor: pointer; font-weight: 600; font-family: 'Ubuntu', sans-serif; font-size: 16px; }
+#gd-chat-send:hover { background: #00cc00; }
+
+.gd-msg { margin: 10px 0; padding: 14px 16px; border-radius: 6px; max-width: 85%; line-height: 1.5; font-size: 17px; word-wrap: break-word; font-family: 'Ubuntu', sans-serif; }
+.gd-user { background: #1a1a1a; border: 1px solid #00ff00; margin-left: auto; text-align: right; color: #00ff00; }
+.gd-bot { background: #0d0d0d; border: 1px solid #005500; margin-right: auto; color: #66ff99; }
+
+#gd-chat-toggle { width: 60px; height: 60px; border-radius: 8px; background: #0a0a0a; border: 2px solid #00ff00; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 10px rgba(0,255,0,0.2); transition: all 0.2s; padding: 0; overflow: hidden; }
+#gd-chat-toggle img { width: 38px; height: 38px; object-fit: contain; }
+#gd-chat-toggle:hover { transform: scale(1.05); box-shadow: 0 0 20px rgba(0,255,0,0.5); background: #00ff00; }
