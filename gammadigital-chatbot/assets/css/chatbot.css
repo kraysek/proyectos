@@ -8,12 +8,38 @@
 
 #gd-chat-msgs { padding: 20px; background: #0d0d0d; max-height: 350px; overflow-y: auto; color: #00ff00; }
 
-#gd-chat-input-area { display: flex; padding: 15px; border-top: 1px solid #00ff00; background: #0a0a0a; }
-#gd-chat-input { flex: 1; padding: 12px; background: #111; color: #00ff00; border: 1px solid #00ff00; border-radius: 6px; outline: none; font-family: 'Ubuntu', sans-serif; font-size: 16px; }
-#gd-chat-input::placeholder { color: #008000; }
+#gd-chat-input-area { 
+    display: flex; 
+    padding: 12px; 
+    border-top: 1px solid #00ff00; 
+    background: #0a0a0a; 
+    align-items: center; 
+    gap: 10px; 
+}
 
-#gd-chat-send { margin-left: 10px; padding: 12px 18px; background: #00ff00; color: #000; border: none; border-radius: 6px; cursor: pointer; font-weight: 600; font-family: 'Ubuntu', sans-serif; font-size: 16px; }
-#gd-chat-send:hover { background: #00cc00; }
+#gd-chat-send { 
+    width: 48px; 
+    height: 48px; 
+    min-width: 48px; 
+    padding: 0; 
+    background: #00ff00; 
+    color: #000; 
+    border: none; 
+    border-radius: 12px; 
+    cursor: pointer; 
+    font-size: 22px; 
+    font-weight: bold; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-shrink: 0; 
+    transition: all 0.2s; 
+    font-family: 'Ubuntu', sans-serif; 
+}
+#gd-chat-send:hover { 
+    background: #00cc00; 
+    transform: scale(1.05); 
+}
 
 .gd-msg { margin: 10px 0; padding: 14px 16px; border-radius: 6px; max-width: 85%; line-height: 1.5; font-size: 17px; word-wrap: break-word; font-family: 'Ubuntu', sans-serif; }
 .gd-user { background: #1a1a1a; border: 1px solid #00ff00; margin-left: auto; text-align: right; color: #00ff00; }

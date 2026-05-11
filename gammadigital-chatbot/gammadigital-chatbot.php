@@ -39,7 +39,7 @@ function gd_render_chat_html() {
             </div>
             <div id="gd-chat-input-area">
                 <input type="text" id="gd-chat-input" placeholder="Escribe tu mensaje...">
-                <button id="gd-chat-send">Enviar</button>
+                <button id="gd-chat-send" aria-label="Enviar mensaje">✓</button>
             </div>
         </div>
         <button id="gd-chat-toggle"></button>
