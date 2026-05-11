@@ -1,11 +1,23 @@
 [
   {
     "palabras": ["hola", "hi", "buenos", "saludos", "qué tal", "ola", "holi", "buenas", "ey", "hey", "holaa", "holaaa", "holita", "holis"],
-    "respuesta": "¡Hola! 👋 Soy GamaBot. ¿Te gustaría cotizar un <b>Logo</b>, <b>Página Web</b>, <b>Fotografía</b> o <b>Ilustración</b>?<br><br> <small>¿Prefieres hablar directamente con un humano? WhatsApp: <a href='https://wa.me/525570795643' target='_blank' style='color:#00ff00;'>55 7079 5643</a></small>"
+    "respuesta": "¡Hola! 👋 Soy GamaBot. ¿Te gustaría cotizar un <b>Logo</b>, <b>Página Web</b>, <b>Fotografía</b>, <b>Ilustración</b>, <b>Material impreso</b> o <b>un Chatbot como yo</b>?<br><br> <small>¿Prefieres hablar directamente con Julio? WhatsApp: <a href='https://wa.me/525570795643' target='_blank' style='color:#00ff00;'>55 7079 5643</a></small>"
   },
   {
-    "palabras": ["adios", "bye", "chao", "hasta luego", "nos vemos", "gracias", "thanks", "ok", "vale", "perfecto", "genial", "grax", "thank you", "graciass", "gracias ", "adiós", "bye bye"],
-    "respuesta": "¡Con gusto! 😊 Si necesitas algo más o quieres agendar una llamada, aquí estaré. ¡Que tengas excelente día!"
+    "palabras": ["gamabot", "chatbot", "bot", "asistente virtual", "bot para mi sitio", "chat para mi web", "automatizar respuestas", "atender clientes", "quiero un bot"],
+    "respuesta": "🤖 <b>GamaBot</b> es un chatbot personalizado para WordPress que atiende a tus clientes 24/7. <br><br>💰 <b>Precios:</b><br>• Básico: $800 MXN (15 reglas + instalación)<br>• Profesional: $1,800 MXN (40 reglas + avatar personalizado + WhatsApp)<br>• Premium: $3,500 MXN (reglas ilimitadas + soporte 3 meses)<br><br>✅ Lo pagas UNA VEZ y es tuyo para siempre. ¿Te gustaría una demo?"
+  },
+  {
+    "palabras": ["cuanto cuesta el chatbot", "precio del bot", "costo gamabot", "chatbot precio", "bot cuanto", "asistente virtual precio", "cuanto por un bot"],
+    "respuesta": "📊 <b>Precios de GamaBot:</b><br>• <b>Básico $800 MXN</b>: 15 reglas + instalación + avatar genérico<br>• <b>Profesional $1,800 MXN</b>: 40 reglas + avatar personalizado + integración WhatsApp + 1 mes de soporte<br>• <b>Premium $3,500 MXN</b>: Reglas ilimitadas + panel de edición + 3 meses de soporte + guía PDF<br><br>✅ Sin mensualidades. ¿Cuál te interesa?"
+  },
+  {
+    "palabras": ["que incluye el chatbot", "que viene con el bot", "características gamabot", "ventajas del chatbot", "por qué contratar el bot", "beneficios del bot"],
+    "respuesta": "✨ <b>GamaBot incluye:</b><br>• Respuestas automáticas a preguntas frecuentes<br>• Redirección inteligente a WhatsApp<br>• Diseño personalizado (colores, avatar, tono)<br>• Instalación en 24-48 horas<br>• Sin APIs externas ni mensualidades<br>• Código ligero que no ralentiza tu sitio<br><br>¿Quieres ver una demo en vivo?"
+  },
+  {
+    "palabras": ["demo", "probar", "ver en acción", "cómo funciona el bot", "quiero ver el chatbot"],
+    "respuesta": "🎬 ¡Claro! Estás hablando con GamaBot ahora mismo 😊. Si quieres ver más ejemplos o una cotización formal, escríbenos: <a href='https://wa.me/525570795643' style='color:#00ff00;'>WhatsApp: 55 7079 5643</a>"
   },
   {
     "palabras": ["logo", "logotipo", "lobo", "log", "logos", "identidad", "marca", "branding", "isotipo", "imagotipo", "logotipos", "diseño de logo", "hacer logo", "crear logo"],
@@ -24,32 +36,32 @@
     "respuesta": "✏️ <b>Ilustraciones digitales</b> desde $700 MXN por pieza. Retratos, personajes originales, portadas o arte para marcas. Entrega en alta resolución. ¿Te gustaría ver trabajos anteriores?"
   },
   {
+    "palabras": ["playera", "camiseta", "polo", "ropa", "personalizar playera", "estampado", "sublimado", "bordado", "uniformes", "merchandising"],
+    "respuesta": "👕 <b>Playeras personalizadas</b> desde $150 MXN/pieza (mín. 12 unidades). Ofrezco: <br>• Serigrafía (alta durabilidad)<br>• Sublimación (todo color, desde 1 pieza)<br>• Bordado (para uniformes)<br>¿Tienes diseño o necesitas que lo creemos?"
+  },
+  {
+    "palabras": ["libro", "maquetacion", "diagramacion", "editorial", "portada de libro", "autoedicion", "publicar", "isbn", "ebook", "kindle", "diagramar libro"],
+    "respuesta": "📚 <b>Diseño editorial</b> desde $1,200 MXN. Incluye portada, contraportada, maquetación interior con normas ISO, tipografías legibles y exportación a PDF/X-1a para imprenta o ePub para digital. ¿Tu libro es novela, técnico, infantil o académico?"
+  },
+  {
+    "palabras": ["folleto", "triptico", "diptico", "volante", "flyer", "promocion", "impresion", "publicidad", "carta", "oficio", "a4"],
+    "respuesta": "📄 <b>Folletos y trípticos</b> desde $400 MXN. Diseño en CMYK, sangrado incluido y archivo listo para imprenta. Incluye 2 propuestas y revisiones. ¿Qué tamaño (carta, oficio, A4) y cantidad necesitas?"
+  },
+  {
+    "palabras": ["cartel", "banner", "lona", "anuncio", "pendon", "gran formato", "publicidad exterior", "lona publicitaria", "vinil"],
+    "respuesta": "🪧 <b>Carteles y banners</b> desde $600 MXN. Diseño en alta resolución (150-300 DPI según tamaño), modo de color CMYK y listo para impresión gran formato. ¿Es para interior, exterior o evento temporal?"
+  },
+  {
     "palabras": ["precio", "cuanto", "costo", "tarifa", "vale", "cotizacion", "presupuesto", "paquete", "promocion", "descuento", "oferta", "cuánto cuesta", "precio de", "costo de"],
-    "respuesta": "📊 <b>Lista de precios base:</b><br>• Logo: $800 MXN<br>• Web: $3,500 MXN<br>• Foto: $600 MXN<br>• Ilustración: $700 MXN<br>¿Sobre cuál necesitas más detalles o una cotización a medida?"
+    "respuesta": "📊 <b>Lista de precios base:</b><br>• Logo: $800 MXN<br>• Web: $3,500 MXN<br>• Foto: $600 MXN<br>• Ilustración: $700 MXN<br>• Playeras: $150 MXN/pza (mín. 12)<br>• Libro: $1,200 MXN<br>• Folleto: $400 MXN<br>• Cartel: $600 MXN<br>• <b>GamaBot (Chatbot): desde $800 MXN</b><br>¿Sobre cuál necesitas más detalles?"
   },
   {
     "palabras": ["ejemplo", "portafolio", "muestra", "trabajos", "ver", "galeria", "antes", "realizados", "clientes", "portfolio", "mis trabajos", "tus trabajos"],
-    "respuesta": " Puedes ver nuestro portafolio completo aquí: <a href='https://gammadigitalstudio.com/diseno-identidad-visual-fotografo/' target='_blank' style='color:#00ff00;'>gammadigitalstudio.com/portafolio</a>"
-  },
-  {
-    "palabras": ["robot", "humano", "ia", "inteligencia", "bot", "maquina", "persona", "real", "eres", "vivo", "consciente", "sentir", "eres humano", "eres real", "eres ia", "eres un bot"],
-    "respuesta": "Soy <b>GamaBot</b> 🤖, el asistente virtual de Gammadigital Studio. No soy humano, pero estoy programado para darte información rápida y precisa. Si prefieres hablar con una persona, escríbenos por WhatsApp."
-  },
-  {
-    "palabras": ["whatsapp", "contacto", "telefono", "llamar", "hablar", "persona", "humano", "agente", "soporte", "ayuda humana", "hablar con alguien", "atención al cliente"],
-    "respuesta": " Contáctanos directo por WhatsApp: <a href='https://wa.me/525570795643' target='_blank' style='color:#00ff00;'>Clic para chatear con Julio</a>. Estamos de Lunes a Viernes, 9:00 - 18:00."
-  },
-  {
-    "palabras": ["hablar con humano", "hablar con persona", "atención humana", "quiero persona", "hablar con alguien", "soporte humano", "hablar contigo", "hablar con julio", "asesor", "vendedor"],
-    "respuesta": "🙋 ¡Claro! Para hablar directamente con <b>Julio</b> (fundador de Gammadigital):<br><br> <a href='https://wa.me/525570795643' target='_blank' style='color:#00ff00;font-weight:bold;'>Clic aquí para WhatsApp</a><br><br>💡 O simplemente haz clic en el botón flotante de esta página para iniciar chat."
-  },
-  {
-    "palabras": ["si", "sí", "claro", "dale", "ok", "perfecto", "vamos", "adelante"],
-    "respuesta": "✅ ¡Genial! Para continuar, puedes:<br><br>1️⃣ Escribirme tu duda aquí<br>2️⃣ Hacer clic en el botón  flotante para WhatsApp<br>3️⃣ Visitar nuestro portafolio: <a href='https://gammadigitalstudio.com/diseno-identidad-visual-fotografo/' target='_blank' style='color:#00ff00;'>gammadigitalstudio.com</a><br><br>¿Qué prefieres?"
+    "respuesta": "🎨 Puedes ver nuestro portafolio completo aquí: <a href='https://gammadigitalstudio.com/diseno-identidad-visual-fotografo/' target='_blank' style='color:#00ff00;'>gammadigitalstudio.com/portafolio</a>"
   },
   {
     "palabras": ["tiempo", "plazo", "tarda", "entrega", "dias", "semana", "rapido", "urgente", "pronto", "cuando", "cuánto tiempo", "tiempo de entrega"],
-    "respuesta": "️ <b>Tiempos de entrega estimados:</b><br>• Logo: 3-5 días hábiles<br>• Web: 7-10 días hábiles<br>• Foto/Ilustración: 2-4 días hábiles<br>¿Necesitas algo con prioridad?"
+    "respuesta": "⏱️ <b>Tiempos de entrega estimados:</b><br>• Logo: 3-5 días hábiles<br>• Web: 7-10 días hábiles<br>• Foto/Ilustración: 2-4 días hábiles<br>• Impresos: 3-5 días + tiempo de imprenta<br>• <b>GamaBot: 24-48 horas</b><br>¿Necesitas servicio express?"
   },
   {
     "palabras": ["pago", "pagos", "transferencia", "tarjeta", "meses", "adelanto", "enganche", "efectivo", "paypal", "metodos", "forma de pago", "cómo pago", "pagar"],
@@ -77,7 +89,7 @@
   },
   {
     "palabras": ["urgente", "rapido", "express", "prioridad", "hoy", "mañana", "para ayer", "necesito ya", "entrega rápida"],
-    "respuesta": " Sí, ofrecemos servicio express con recargo del 30-50% según la urgencia. Logo en 24-48h, Web en 3-5 días. ¿Cuándo lo necesitas listo?"
+    "respuesta": "⚡ Sí, ofrecemos servicio express con recargo del 30-50% según la urgencia. Logo en 24-48h, Web en 3-5 días. ¿Cuándo lo necesitas listo?"
   },
   {
     "palabras": ["garantia", "garantía", "reembolso", "devolucion", "si no me gusta", "no estoy satisfecho", "qué pasa si"],
@@ -126,5 +138,29 @@
   {
     "palabras": ["confianza", "seguridad", "confiable", "serio", "profesional", "recomendado", "por qué elegirlos"],
     "respuesta": "🤝 En Gammadigital Studio combinamos diseño profesional, tiempos de entrega claros y comunicación constante. Nuestros clientes regresan por la calidad y el trato cercano. ¿Te gustaría ver casos de éxito similares a tu proyecto?"
+  },
+  {
+    "palabras": ["whatsapp", "contacto", "telefono", "llamar", "hablar", "persona", "humano", "agente", "soporte", "ayuda humana", "hablar con alguien", "atención al cliente"],
+    "respuesta": "📲 Contáctanos directo por WhatsApp: <a href='https://wa.me/525570795643' target='_blank' style='color:#00ff00;'>Clic para chatear con Julio</a>. Estamos de Lunes a Viernes, 9:00 - 18:00."
+  },
+  {
+    "palabras": ["hablar con humano", "hablar con persona", "atención humana", "quiero persona", "hablar con alguien", "soporte humano", "hablar contigo", "hablar con julio", "asesor", "vendedor"],
+    "respuesta": "🙋 ¡Claro! Para hablar directamente con <b>Julio</b> (fundador de Gammadigital):<br><br>📲 <a href='https://wa.me/525570795643' target='_blank' style='color:#00ff00;font-weight:bold;'>Clic aquí para WhatsApp</a><br><br>💡 O simplemente haz clic en el botón flotante de esta página para iniciar chat."
+  },
+  {
+    "palabras": ["robot", "humano", "ia", "inteligencia", "bot", "maquina", "persona", "real", "eres", "vivo", "consciente", "sentir", "eres humano", "eres real", "eres ia", "eres un bot"],
+    "respuesta": "Soy <b>GamaBot</b> 🤖, el asistente virtual de Gammadigital Studio. No soy humano, pero estoy programado para darte información rápida y precisa. Si prefieres hablar con una persona, escríbenos por WhatsApp."
+  },
+  {
+    "palabras": ["si", "sí", "claro", "dale", "ok", "perfecto", "vamos", "adelante"],
+    "respuesta": "✅ ¡Genial! Para continuar, puedes:<br><br>1️⃣ Escribirme tu duda aquí<br>2️⃣ Hacer clic en el botón 💬 flotante para WhatsApp<br>3️⃣ Visitar nuestro portafolio: <a href='https://gammadigitalstudio.com/diseno-identidad-visual-fotografo/' target='_blank' style='color:#00ff00;'>gammadigitalstudio.com</a><br><br>¿Qué prefieres?"
+  },
+  {
+    "palabras": ["no se", "ayuda", "asesoria", "recomendacion", "que me conviene", "orientacion", "consejo", "no sé qué necesito"],
+    "respuesta": "🤔 Con gusto te ayudo a elegir. Cuéntame:<br>1️⃣ ¿Qué quieres promocionar o vender?<br>2️⃣ ¿Presupuesto aproximado?<br>3️⃣ ¿Para cuándo lo necesitas?<br><br>O hablemos por WhatsApp: <a href='https://wa.me/525570795643' style='color:#00ff00;'>55 7079 5643</a>"
+  },
+  {
+    "palabras": ["adios", "bye", "chao", "hasta luego", "nos vemos", "gracias", "thanks", "ok", "vale", "perfecto", "genial", "grax", "thank you", "graciass", "gracias ", "adiós", "bye bye"],
+    "respuesta": "¡Con gusto! 😊 Si necesitas algo más o quieres agendar una llamada, aquí estaré. ¡Que tengas excelente día!"
   }
 ]
